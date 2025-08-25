@@ -1,0 +1,51 @@
+body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+      color: #111;
+      background: #fff;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 16px;
+    }
+
+    /* Заголовки */
+    h1 { font-size: 36px; margin: 0 0 8px; }
+    h2 { font-size: 20px; margin: 24px 0 8px; text-transform: uppercase; }
+    h3 { font-size: 18px; margin: 12px 0 6px; }
+
+    .role { font-size: 18px; color: #333; margin-bottom: 24px; }
+    .muted { color: #555; }
+
+
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    @media (min-width: 720px) {
+      .projects { grid-template-columns: 1fr 1fr; }
+    }
+    .card {
+      border: 1px solid #ddd;
+      padding: 12px;
+    }
+    .thumb {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 1px solid #eee;
+    }
+
+    .link-box {
+      margin-top: 8px;
+      font-size: 14px;
+      word-break: break-word;
+    }
+    a { color: #0b57d0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+
+    .section { margin-top: 16px; }
